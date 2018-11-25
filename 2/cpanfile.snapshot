@@ -1,0 +1,22 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Class-Accessor-0.51
+    pathname: K/KA/KASEI/Class-Accessor-0.51.tar.gz
+    provides:
+      Class::Accessor 0.51
+      Class::Accessor::Fast 0.51
+      Class::Accessor::Faster 0.51
+    requirements:
+      ExtUtils::MakeMaker 0
+      base 1.01
+  Class-XSAccessor-1.19
+    pathname: S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz
+    provides:
+      Class::XSAccessor 1.19
+      Class::XSAccessor::Array 1.19
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      Time::HiRes 0
+      XSLoader 0
+      perl 5.008
